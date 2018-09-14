@@ -1,6 +1,7 @@
 #include <iostream>
+#include "gcd.hpp"
 
 int main() {
-    std::cout << "Andrew Yang" << std::endl;
+    std::cout << gcd(24, 18);
     return 0;
 }
